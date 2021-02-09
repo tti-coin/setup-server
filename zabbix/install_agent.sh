@@ -17,3 +17,4 @@ if [ -e /proc/driver/nvidia/version ] ; then
     sudo cp zabbix-nvidia-smi-multi-gpu/get_gpus_info.sh /etc/zabbix/scripts/
     sudo chmod +x /etc/zabbix/scripts/get_gpus_info.sh
 fi
+sudo systemctl restart zabbix-agent.service
