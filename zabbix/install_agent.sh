@@ -1,5 +1,5 @@
 #!/bin/bash
-ZBX_SRV="dollar"
+ZBX_SRV="euro"
 HOST=`hostname`
 # install zabbix-server
 sudo apt update && sudo apt install -y zabbix-agent
